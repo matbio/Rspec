@@ -1,0 +1,23 @@
+INSTRUÇÕES DE TRABALHO E COMANDOS EM RSPEC
+
+- Primeiro para começar um projeto em ruby executar o comando bundle init
+- Será gerado um arquivo chamado 'Gemfile' onde será centralizada as dependencias do seu projeto
+- Pode se manter source "https://rubygems.org" e adcionar a gem do rspec (gem "rspec")
+- Após alterar o Gemfile, executar o comando 'bundle install' para instalar as dependencias.
+- Para iniciar o Rspec executar comando: rspec --init. serão geradas a pasta spec como spec_helper.rb e o arquivo .rspec
+
+- Para executar os testes unitários rodar o comando> rspec
+- rspec -fd detalha melhor os testes
+- rspec spec\IBank\IBsaqueCP_spec.rb -fd (executa um arquivo de teste em especifico)
+- rspec spec\IBank\ (Executa os arquivos de teste em um diretório)
+
+----------- Geração de relatórios de teste Rspec ------------
+Geração de relatório em arquivo.html apontando para diretório:
+- rspec --format html --out .\RelatoriosRspec\report.html (Add -fd para detalhar também no terminal)
+Para rodar em servidores e em builds como jekins ou azure:
+- adicionar gem rspec_junit_formatter no arquivo Gemfile (Não esquecer de rodar o bundle install após para instalar dependencia)
+- rspec --format RspecJunitFormatter --out .\RelatoriosRspec\report.xml (Add -fd para detalhar também no terminal)
+
+#Dica nos testes a nomenclatura padrão é teste_spec.rb
+
+

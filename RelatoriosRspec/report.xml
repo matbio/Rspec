@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="20" skipped="0" failures="0" errors="0" time="0.024002" timestamp="2021-06-30T19:42:06-03:00" hostname="LAPTOP-E3G2MDGA">
+<properties>
+<property name="seed" value="59355"/>
+</properties>
+<testcase classname="spec.IBank.IBsaqueCC_spec" name="ContaCorrente Saques Quando Saque com saldo positvo Então atualizar saldo após saque" file="./spec/IBank/IBsaqueCC_spec.rb" time="0.002175"></testcase>
+<testcase classname="spec.IBank.IBsaqueCC_spec" name="ContaCorrente Saques Quando saque com saldo igual a 0 Então manter saldo inicial" file="./spec/IBank/IBsaqueCC_spec.rb" time="0.000082"></testcase>
+<testcase classname="spec.IBank.IBsaqueCC_spec" name="ContaCorrente Saques Quando saque com saldo igual a 0 E mostrar mensagem de saldo insuficiente" file="./spec/IBank/IBsaqueCC_spec.rb" time="0.000084"></testcase>
+<testcase classname="spec.IBank.IBsaqueCC_spec" name="ContaCorrente Saques Quando saque com saldo insulficiente Então manter saldo inicial" file="./spec/IBank/IBsaqueCC_spec.rb" time="0.000067"></testcase>
+<testcase classname="spec.IBank.IBsaqueCC_spec" name="ContaCorrente Saques Quando saque com saldo insulficiente E mostrar mensagem de saldo insuficiente" file="./spec/IBank/IBsaqueCC_spec.rb" time="0.000093"></testcase>
+<testcase classname="spec.IBank.IBsaqueCC_spec" name="ContaCorrente Saques Quando Saque que ultrapassa o limite Então manter saldo inicial" file="./spec/IBank/IBsaqueCC_spec.rb" time="0.000067"></testcase>
+<testcase classname="spec.IBank.IBsaqueCC_spec" name="ContaCorrente Saques Quando Saque que ultrapassa o limite E mostrar mensagem de Limite de saque" file="./spec/IBank/IBsaqueCC_spec.rb" time="0.000060"></testcase>
+<testcase classname="spec.IBank.IBsaqueCP_spec" name="ContaPoupanca Saques Quando Saque com saldo positvo Então atualizar saldo após saque" file="./spec/IBank/IBsaqueCP_spec.rb" time="0.000066"></testcase>
+<testcase classname="spec.IBank.IBsaqueCP_spec" name="ContaPoupanca Saques Quando saque com saldo igual a 0 Então manter saldo inicial" file="./spec/IBank/IBsaqueCP_spec.rb" time="0.000065"></testcase>
+<testcase classname="spec.IBank.IBsaqueCP_spec" name="ContaPoupanca Saques Quando saque com saldo igual a 0 E mostrar mensagem de saldo insuficiente" file="./spec/IBank/IBsaqueCP_spec.rb" time="0.000060"></testcase>
+<testcase classname="spec.IBank.IBsaqueCP_spec" name="ContaPoupanca Saques Quando saque com saldo insulficiente Então manter saldo inicial" file="./spec/IBank/IBsaqueCP_spec.rb" time="0.000064"></testcase>
+<testcase classname="spec.IBank.IBsaqueCP_spec" name="ContaPoupanca Saques Quando saque com saldo insulficiente E mostrar mensagem de saldo insuficiente" file="./spec/IBank/IBsaqueCP_spec.rb" time="0.000059"></testcase>
+<testcase classname="spec.IBank.IBsaqueCP_spec" name="ContaPoupanca Saques Quando Saque que ultrapassa o limite Então manter saldo inicial" file="./spec/IBank/IBsaqueCP_spec.rb" time="0.000083"></testcase>
+<testcase classname="spec.IBank.IBsaqueCP_spec" name="ContaPoupanca Saques Quando Saque que ultrapassa o limite E mostrar mensagem de Limite de saque" file="./spec/IBank/IBsaqueCP_spec.rb" time="0.000059"></testcase>
+<testcase classname="spec.exemplos_spec" name="suite rspec soma valores" file="./spec/exemplos_spec.rb" time="0.000059"></testcase>
+<testcase classname="spec.test1_spec" name="Feira Deve adicionar um tipo de fruta" file="./spec/test1_spec.rb" time="0.000062"></testcase>
+<testcase classname="spec.test1_spec" name="Feira Deve adicionar uma lista de frutas" file="./spec/test1_spec.rb" time="0.009895"></testcase>
+<testcase classname="spec.test1_spec" name="Feira Mamão deve ser o primeiro da lista de frutas" file="./spec/test1_spec.rb" time="0.002387"></testcase>
+<testcase classname="spec.test1_spec" name="Feira Melão deve ser o ultimo da lista de frutas" file="./spec/test1_spec.rb" time="0.000094"></testcase>
+<testcase classname="spec.test1_spec" name="Feira Deve conter o sobrenome do feirante" file="./spec/test1_spec.rb" time="0.002364"></testcase>
+</testsuite>
